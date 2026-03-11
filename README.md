@@ -7,7 +7,7 @@ End-to-end data pipeline and analytics dashboard built on Databricks, PySpark, D
 Kaggle Superstore Sales dataset — 9,994 retail order line items from 2014 to 2017.
 Download: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
-## What this project does
+## Purpose of the dashboard
 
 1. Ingests the raw CSV into Databricks (Bronze layer)
 2. Cleans and enriches the data with PySpark — date parsing, profit margin calculation, discount tier classification, deduplication (Silver layer)
@@ -34,7 +34,7 @@ SuperstoreDashboard.jsx            React dashboard component
 ## How to run
 
 1. Download `Sample - Superstore.csv` from Kaggle
-2. Create a Databricks workspace (14-day free trial at databricks.com/try)
+2. Create a Databricks workspace
 3. Upload the CSV: `databricks fs cp "Sample - Superstore.csv" dbfs:/mnt/raw/superstore/`
 4. Import `superstore_analytics_notebook.py` as a notebook (File > Import)
 5. Attach to a cluster running DBR 12.x or later and run all cells
