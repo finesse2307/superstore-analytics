@@ -28,7 +28,7 @@ Download: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 ```
 superstore_analytics_notebook.py   Databricks notebook — full pipeline
-SuperstoreDashboard.jsx            React dashboard component
+SuperstoreDashboard.jsx            React dashboard
 ```
 
 ## How to run
